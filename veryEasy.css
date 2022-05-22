@@ -1,19 +1,23 @@
 /* Very Easy: Create one 8x8 checkerboard similar to the picture attached using a table. Bonus: use only 
 divs to create the board. */
 
-.container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: black;
-    padding: 12px;
-    justify-content: flex-start;
-    align-items: center;
+table, td, th {
+  border: 1px solid #ddd;
 }
 
-.box {
-    background-color: white;
-    padding: 40px;
-    margin: 10px;
+table {
+    width:50%;
+    border-collapse: collapse;
     
+}
+th, td {
+    padding: 30px;
+    
+}
+td {
+    background-color: black;
+    vertical-align: center;
+}
+.fill-in {
+    background-color: white;
 }
