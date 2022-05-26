@@ -1,0 +1,37 @@
+/* Medium: Create a product grid of 2 rows, totaling to a required 8 products. Each product must include a 
+title, price, image and a short description. Have each product link back to its own page on Amazon / 
+Walmart / Target. */
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 100px 100px;
+}
+
+.card {
+   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+.price {
+    color: grey;
+    font-size: 22px;
+}
+  
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.card button:hover {
+    opacity: 0.7;
+}
