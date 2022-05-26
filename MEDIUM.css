@@ -5,8 +5,6 @@ Walmart / Target. */
 .row {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    /* grid-template-rows: 12px 12px 12px 12px; */
-   
     border-radius: 10px;
     margin: 30px;
     
@@ -25,16 +23,18 @@ Walmart / Target. */
     margin: auto;
     text-align: center;
     font-family: arial;
+    
 }
 h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
 }
 p {
-    font-family: 
+    font-family: bookman;
     font-size: 15px;
     border-radius: 20px;
-
+    text-align: center;
+   
 }
 .price {
     color: slategrey;
@@ -44,14 +44,16 @@ p {
   
 .card button {
     border: none;
+    border-radius: 20px;
     outline: 0;
     padding: 12px;
     color: white;
     background-color: #000;
     text-align: center;
     cursor: pointer;
-    width: 100%;
-    font-size: 18px;
+    width: 50%;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
 }
 .card button:hover {
     opacity: 0.7;
